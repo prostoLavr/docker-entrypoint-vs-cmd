@@ -49,7 +49,7 @@ ENTRYPOINT: ["/docker-entrypoint.sh"]
 
 CMD: ["nginx","-g","daemon off;"]
 
-ENTRYPOINT script content is too ong to place it here.
+ENTRYPOINT script content is too long to place it here.
 But notice that it just setups env vars, config files and also ends with `exec "$@"`
 
 ## Conclusion
